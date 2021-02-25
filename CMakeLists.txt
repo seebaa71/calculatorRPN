@@ -9,5 +9,5 @@ include_directories(include)
 
 
 
-add_executable(calculator main.cpp Tests/ClassName.h Tests/test.cpp src/calculator.cpp include/calculator.h Tests/operations.cpp)
+add_executable(calculator main.cpp src/calculator.cpp include/calculator.h Tests/operations.cpp)
 target_link_libraries(calculator gtest gtest_main)
